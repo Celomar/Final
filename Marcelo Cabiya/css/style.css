@@ -1,0 +1,301 @@
+body {
+    font-family: Neucha;
+    margin: 0;
+    background-image: url("");
+    background-color:#DDE4E1;
+}
+
+
+header {
+    padding: 50px;
+    text-align: center;
+    background: #00004d ;
+    color: white;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.sub {
+    font-weight: bold;
+    font-size: 65px;
+}
+#logo {
+  height: 100px;
+  float: left;
+}
+
+
+nav {
+    background-color: #BB4430;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+
+nav a {
+    
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+.logo
+{
+  padding-bottom: 20px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: flex-start;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #EE2C25;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+}
+   h2 {
+    font-family: 'Luckiest Guy', cursive;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #606060;
+
+}
+h2 hover {
+  color: lightblue;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.side {
+    flex: 50%;
+    background-color: #ADD9D1;
+    padding: 20px;
+}
+
+.off {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1D858C;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+   a:hover {
+    color: lightblue;
+    opacity: 30%;
+}
+
+.p {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.main {
+    flex: 50%;
+    background-color: #81CAB2;
+    padding: 20px;
+    width: 10%;
+    height: 10%;
+}
+
+.img1 {
+    padding: 10px;
+    padding-left: 130px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.row2 {  
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.row3 {  
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.side2 {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.img2 {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 110px;
+}
+#imgtext {
+  margin-left: 10px;
+  width: 95%;
+}
+ #art1{
+  width: 40%;
+  position: absolute;
+  margin-left: 30px;}
+
+#art1text {
+  text-align: justify;
+  margin: 10px;
+
+ } 
+ .active {
+  color: lightblue;
+ }
+
+ #text1 {
+  margin-left: 30px;
+  margin-top: 100px;
+ }
+
+
+#art2{
+  float: right;
+  width: 48%;
+  margin-top: 100px;
+}
+
+
+}
+
+.main2 {
+    flex: 50%;
+    background-color: #C1E288;
+    padding: 20px;
+}
+
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: grey;
+    position: relative;
+}
+    
+
+
+.footer a:hover {
+    color: yellow;
+    padding: 14px 20px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+/*/about/*/
+.wrapper {
+    display: flex;
+    margin:20px;
+}
+
+.columna1, .columna2 {
+    margin: 10px;
+    flex: 1;
+    color: white;
+    
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.columna1 {
+    background-color:#231F20 ;
+    border-radius: 10%;
+    padding-top: 20px;
+}
+
+
+.caja1, .caja2{
+    margin: 10px; 
+    background-color:#231F20;
+    color: white;
+    border-radius: 10%;
+    padding-top: 25px; 
+}
+.caja1 img {
+    width: 40%;
+    border-radius: 30%;
+    text-align: center;
+ }
+ .caja2 img {
+    border-radius: 90%;
+    width: 40%;
+    height: auto;}
+/*/Videos/*/
+.rowvid  {
+  display: flex;
+padding-top: 25px;}
+.column-1, .column-2 {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  padding-top:20px; }
+
+
+/*/merch/*/
+.rowm  {
+  display: flex;
+  padding-top: 60px;
+}
+.vid-1, .vid-2, .vid-3 {
+  flex: 1;
+  text-align: center;
+  margin: 8px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px
+ }
+ .rowm div img {
+  border-radius: 10%;
+  width: 45%;
+  height: auto;
+}
+.rowm div img:hover {
+     -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);   
+      transform: scale(1.5); 
+  }
